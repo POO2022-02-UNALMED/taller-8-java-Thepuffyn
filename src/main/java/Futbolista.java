@@ -27,23 +27,23 @@ public abstract class Futbolista implements Comparable{
 		return this==f;
 	}
 	
-	public abstract boolean jugarConLasManos();
-  
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-		
+	public abstract boolean jugarConLasManos();  
 	
 	public String getNombre() {
 		return nombre;
 	}
 	
-  	public void setEdad(int edad) {
-		this.edad = edad;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
-  
+		
+	
 	public int getEdad() {
 		return edad;
+	}
+	
+  	public void setEdad(int edad) {
+		this.edad = edad;
 	}
 	
 	
