@@ -23,8 +23,8 @@ public abstract class Futbolista implements Comparable{
 		return "El futbolista " + nombre + " tiene " + edad + ", y juega de " + posicion ;
 	}
 	
-	public boolean equals(Futbolista N){
-		return this==N;
+	public boolean equals(Futbolista f){
+		return this==f;
 	}
 	
 	public abstract boolean jugarConLasManos();
